@@ -1,0 +1,19 @@
+//Input
+let student1=Juan;
+let grade1=100;
+let grade2=0;
+let grade3=0;
+let grade4=70;
+let average;
+let status;
+
+//Process
+average=(grade1+grade2+grade3+grade4)/4;
+if (average>=60){
+status="Approved"
+} else{
+status="Reproved"
+}
+
+//Ouput
+console.log("The average grade of " + student1 + " is : " + average + " and is " + status);
