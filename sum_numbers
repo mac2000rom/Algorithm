@@ -8,3 +8,4 @@ for (i=11;i<23;i++){
 suma+=i;
 console.log(suma);
 }
+alert("The total is " + suma);
