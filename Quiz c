@@ -1,0 +1,16 @@
+//Input
+let index; 
+let suma;
+let number1;
+let number2;
+
+//Process
+suma=0;
+number1=20;
+number2=22;
+for (index=number1; index<=number2;index++){
+suma+=index;
+}
+
+//Output
+console.log("The sum of numbers from "+number1+" to "+number2+" is : "+suma);
