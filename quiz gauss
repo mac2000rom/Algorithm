@@ -1,0 +1,10 @@
+//Input
+Let N;
+Let S;
+
+//Process
+N=51;
+S=N*(N+1)/2; //Gauss formula
+
+//Output
+console.log("The sum of numbers from 1 to "+N+" is : "+S); 
