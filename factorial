@@ -1,0 +1,10 @@
+//Input
+let factorial;
+let i;  //Declare index
+
+//Process/Output
+factorial=1;
+for (i=5;i>0;i--){
+factorial*=i;
+}
+console.log(factorial)
