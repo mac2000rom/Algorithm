@@ -2,6 +2,6 @@ let ra;
 let A;
 
 ra=10;
-A=3.14*Math.pow(ra,a);
+A=3.14*Math.pow(ra,2);
 
 console.log("The area of the circle with r="+ra+" es : "+A); 
