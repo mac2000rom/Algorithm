@@ -9,9 +9,9 @@ if (N<2) console.log(N +" is not prime");
 if (N==2) console.log(N +" is prime");
 if (N>2) 
   {
-  for (divisor=2;divisor=N;divisor++)
+  for (divisor=2;divisor<=N;divisor++)
     {
-    if (N%2) console.log(N +" is not prime")
+    if(N%divisor==0) console.log(N +" is not prime");
     }
   }
 }
