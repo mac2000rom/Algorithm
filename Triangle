@@ -1,0 +1,8 @@
+let h=10;
+let l=5;
+let A;
+
+ra=10;
+A=h*l/2;
+
+console.log("The area of the rectangle is : "+A); 
