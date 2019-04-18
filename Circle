@@ -1,0 +1,7 @@
+let ra;
+let A;
+
+ra=10;
+A=3.14*ra^2;
+
+console.log("The area of the circle with r="+ra+" es : "+A); 
