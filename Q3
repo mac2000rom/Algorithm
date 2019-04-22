@@ -1,0 +1,10 @@
+let h;
+let a;
+let S;
+
+h=3;
+a=4;
+
+S=6*a*h+3*Math.sqrt(3)*Math.pow(a,2);
+
+console.log("The surface of the hexagonal prism is : "+S);
