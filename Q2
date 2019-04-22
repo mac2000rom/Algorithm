@@ -1,1 +1,13 @@
+let N;
+let c;
+let temp;
 
+N=7;
+temp=N;
+for (c=1;c<=7;c++) {
+    if(N%c==1) 
+    if (c<temp) {
+    temp=c;
+    }
+}
+console.log("The smallest coefficient of 7 is : "+temp);
