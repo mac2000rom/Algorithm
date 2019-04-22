@@ -1,0 +1,23 @@
+let b;
+let bp
+let d;
+let pot;
+let temp;
+
+b=101011;
+bp=b;
+d=0;
+pot=0;
+while (true){
+if (b==0){
+  break;
+}
+else{
+temp=b%10;
+d+=temp*Math.pow(2,pot);
+b=Math.floor(b/10);
+pot++;
+}
+}
+
+console.log("The binary number is : "+bp+" and the decimal number is : "+d);
