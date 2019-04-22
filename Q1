@@ -1,0 +1,10 @@
+let N;
+let NR;
+
+NR=0;
+
+for (N=12345;N>0;N/10) {
+  NR=NR*10+N%10;
+}
+
+console.log("Original number : "+N+" Digits backward : "+NR);
